@@ -1,0 +1,20 @@
+{
+  "name": "apirest-node",
+  "version": "1.0.0",
+  "description": "Basic structure of api-rest in Node",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "author": "@memo_raf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
